@@ -9,6 +9,6 @@ import java.time.Period
 interface ApiService {
 
     @GET("svc/mostpopular/v2/viewed/{period}.json?")
-    suspend fun getArticleList(@Path("period") period: Int,@Query("api-key") key:String ="b61Rg7v1AwLS7FM9z6Ri2dhAIJLKvfsX"):Response<ArticleResponse>
+    suspend fun getArticleList(@Path("period") period: Int,@Query("api-key") key:String =BuildConfig.NYTimesApiKey):Response<ArticleResponse>
 
 }
