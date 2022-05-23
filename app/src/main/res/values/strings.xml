@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NyTimesSample</string>
+    <string name="read_more">Read More...</string>
+    <string name="no_data_available_for_list">No data available for list</string>
+</resources>
